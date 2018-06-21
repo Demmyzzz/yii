@@ -1,0 +1,71 @@
+
+//цвета
+
+$mylove: maroon
+$cite-color-one: #30282f
+$cite-color-two: #70616c
+$cite-color-theree: #dace8c
+$cite-color-four: #7bd74a
+$cite-color: #289900
+
+//шрифты
+
+$font: 14px
+$font-family: sans-serif
+
+body
+    margin: 0
+    padding: 0
+
+//--------HEADER--------//
+
+.header
+    height: 88px
+    border-top: 3px solid #0c6119
+    border-bottom: 3px solid #0c6119
+    display: grid
+    grid-template-columns: minmax(140px, 200px) minmax(400px, auto) minmax(150px, 200px)
+    grid-template-rows: 88px
+    .logo_wrapper
+        height: auto
+        max-width: 100px
+        span
+            img 
+                margin-left: 20px   
+                height: 80px
+                width: 140px
+    .nav_wrapper
+        height: 88px
+
+        ul
+            padding: 0
+            margin: 0
+            display: grid
+            grid-template-columns: repeat(5, 120px) 
+            grid-column-gap: 20px
+            padding: 11px
+            li:first-child
+                border-left: 1px solid grey                
+            li 
+                line-height: 4.12em
+                list-style: none
+                a:first-child
+                    clear: both
+                a:last-child
+                    padding-right: 39px
+                a:hover 
+                    background-color: maroon    
+                a       
+                    padding-left: 39px 
+                    text-decoration: none
+                    color: black  
+                    font-family: 'Shrikhand', cursive
+                    font-style: italic
+                    font-weight: bold
+                    
+
+
+        
+
+
+
