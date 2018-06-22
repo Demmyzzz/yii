@@ -3,39 +3,35 @@ body {
   padding: 0; }
 
 .header {
-  height: 88px;
+  height: 70px;
   border-top: 3px solid #0c6119;
   border-bottom: 3px solid #0c6119;
   display: grid;
   grid-template-columns: minmax(140px, 200px) minmax(400px, auto) minmax(150px, 200px);
-  grid-template-rows: 88px; }
+  grid-template-rows: 70px; }
   .header .logo_wrapper {
     height: auto;
     max-width: 100px; }
     .header .logo_wrapper span img {
       margin-left: 20px;
-      height: 80px;
+      height: 70px;
       width: 140px; }
   .header .nav_wrapper {
-    height: 88px; }
+    height: 70px; }
     .header .nav_wrapper ul {
+      height: 70px;
       padding: 0;
       margin: 0;
       display: grid;
       grid-template-columns: repeat(5, 120px);
-      grid-column-gap: 20px;
-      padding: 11px; }
-      .header .nav_wrapper ul li:first-child {
-        border-left: 1px solid grey; }
+      grid-column-gap: 20px; }
       .header .nav_wrapper ul li {
-        line-height: 4.12em;
+        line-height: 4.7em;
         list-style: none; }
         .header .nav_wrapper ul li a:first-child {
           clear: both; }
         .header .nav_wrapper ul li a:last-child {
           padding-right: 39px; }
-        .header .nav_wrapper ul li a:hover {
-          background-color: maroon; }
         .header .nav_wrapper ul li a {
           padding-left: 39px;
           text-decoration: none;
@@ -43,5 +39,12 @@ body {
           font-family: "Shrikhand", cursive;
           font-style: italic;
           font-weight: bold; }
+  .header .icon_wrap span {
+    display: grid;
+    justify-items: right; }
+    .header .icon_wrap span img {
+      width: 40px;
+      height: 40px;
+      padding: 15px; }
 
 /*# sourceMappingURL=index.css.map */

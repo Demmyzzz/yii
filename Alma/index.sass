@@ -12,6 +12,7 @@ $cite-color: #289900
 
 $font: 14px
 $font-family: sans-serif
+$Shrikhand: 'Shrikhand', cursive
 
 body
     margin: 0
@@ -20,49 +21,53 @@ body
 //--------HEADER--------//
 
 .header
-    height: 88px
+    height: 70px
     border-top: 3px solid #0c6119
     border-bottom: 3px solid #0c6119
     display: grid
     grid-template-columns: minmax(140px, 200px) minmax(400px, auto) minmax(150px, 200px)
-    grid-template-rows: 88px
+    grid-template-rows: 70px
     .logo_wrapper
         height: auto
         max-width: 100px
         span
             img 
                 margin-left: 20px   
-                height: 80px
+                height: 70px
                 width: 140px
     .nav_wrapper
-        height: 88px
-
+        height: 70px
         ul
+            height: 70px
             padding: 0
             margin: 0
             display: grid
             grid-template-columns: repeat(5, 120px) 
             grid-column-gap: 20px
-            padding: 11px
-            li:first-child
-                border-left: 1px solid grey                
             li 
-                line-height: 4.12em
+                line-height: 4.7em
                 list-style: none
                 a:first-child
                     clear: both
                 a:last-child
-                    padding-right: 39px
-                a:hover 
-                    background-color: maroon    
+                    padding-right: 39px      
                 a       
                     padding-left: 39px 
                     text-decoration: none
                     color: black  
-                    font-family: 'Shrikhand', cursive
+                    font-family: $Shrikhand 
                     font-style: italic
                     font-weight: bold
-                    
+    .icon_wrap
+
+        span 
+            display: grid
+            justify-items: right   
+            img 
+                width: 40px
+                height: 40px
+                padding: 15px
+                           
 
 
         
