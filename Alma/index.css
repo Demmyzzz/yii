@@ -47,4 +47,23 @@ body {
       height: 40px;
       padding: 15px; }
 
+.wrapper {
+  display: grid;
+  justify-items: center; }
+  .wrapper .top_news {
+    padding: 10px; }
+    .wrapper .top_news img {
+      box-shadow: 5px 5px 20px rgba(2, 20, 2, 0.5);
+      max-width: 1200px;
+      height: auto; }
+    .wrapper .top_news .info {
+      position: absolute;
+      top: 500px;
+      left: 150px; }
+      .wrapper .top_news .info span {
+        font-family: "Shrikhand", cursive;
+        font-size: 26px;
+        color: #fff;
+        font-weight: bold; }
+
 /*# sourceMappingURL=index.css.map */
