@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  display: grid;
+  justify-items: center;
+  width: 1248px;
+  height: 88px;
+  margin: 30px auto;
+  background-color: #313030; }
+  .header .nav {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 100px); }
+    .header .nav li {
+      display: grid;
+      justify-items: center;
+      list-style: none;
+      height: 88px; }
+      .header .nav li a:hover {
+        background-color: #ff3f40; }
+      .header .nav li a {
+        font-family: "Open Sans - Extrabold";
+        width: 90px;
+        line-height: 5.2em;
+        height: 100%;
+        text-decoration: none;
+        color: #fff;
+        text-align: center; }
+
+.wrapper {
+  margin: 30px auto;
+  max-width: 1248px; }
+  .wrapper .top {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(550px, 600px));
+    grid-gap: 48px; }
+    .wrapper .top .left {
+      display: grid; }
+      .wrapper .top .left h1 {
+        font-size: 60px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        letter-spacing: 6px;
+        font-family: "Open Sans - Extrabold"; }
+      .wrapper .top .left p {
+        opacity: 0.7;
+        color: #000000;
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-weight: 400; }
+      .wrapper .top .left .btn {
+        margin-top: 60px;
+        width: 255px;
+        height: 55px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        background-color: #ff2d2d;
+        color: #fff;
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 34.06px; }
+    .wrapper .top .right {
+      padding-top: 40px; }
+      .wrapper .top .right .rectangle {
+        width: 550px;
+        height: 360px; }
+  .wrapper .news {
+    margin: 30px auto;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 400px);
+    justify-items: center; }
+    .wrapper .news div {
+      height: 400px;
+      width: 300px; }
+  .wrapper .feedback .text h1 {
+    width: 296px;
+    height: 32px;
+    opacity: 0.8;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.38px; }
+
+.footer_wrapper {
+  margin: 0;
+  display: grid;
+  grid-column-gap: 688.5px;
+  grid-template-columns: 400px 185px;
+  max-width: 100%;
+  height: 110px;
+  background-color: #313030; }
+  .footer_wrapper .right {
+    line-height: 7.5em; }
+    .footer_wrapper .right .icon {
+      max-width: 40px;
+      padding: 5px; }
+  .footer_wrapper .left {
+    display: grid;
+    color: #fff; }
+    .footer_wrapper .left p {
+      line-height: 6.5em;
+      margin: 0;
+      margin-left: 29.5px; }
+
+/*# sourceMappingURL=index.css.map */
